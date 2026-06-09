@@ -4,6 +4,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+/* navbar */
 #nav-bar{
     position:sticky;
     top: 0;
@@ -71,6 +72,7 @@
    color: white;
    background-color: black;
 }
+/* section */
 .section{
     background-color: rgb(44, 41, 41);
     color: whitesmoke;
@@ -83,6 +85,7 @@
     margin-top: 60px;
     margin-bottom: 40px;
 }
+/* card */
 .card{
     transition: transform 0.3s ease;
     max-width: 320px;
