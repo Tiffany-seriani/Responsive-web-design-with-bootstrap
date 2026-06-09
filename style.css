@@ -34,19 +34,23 @@
 }
 /* hero section */
 .hero{
-    height: 100vh;
+   height: 100vh;
     position: relative;
      background-size: cover;
+     background-image: url(images/background-image.jpg);
      background-position: center;
      color: white;
      position: relative;
-     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 .hero-text{
     font-size:4rem;
     font-weight:200;
     font-family:'Playfair Display', serif;
     color: brown;
+    text-align: center;
 }
 .hero-text span{
     color: black;
@@ -54,12 +58,16 @@
 }
 .small-text{
    letter-spacing:3px;
-   color: black;
+   color: white;
    font-size:0.9rem; 
+   text-align: center;
 }
-.btn-dark{
+.btn{
    border:none;
    padding:12px 28px;
    border-radius:40px;
    font-weight:600;
+}
+.section{
+    background-color: rgb(44, 41, 41);
 }
